@@ -15,6 +15,12 @@
   width: 100%;
   height: 100vh;
 }
+a {
+  text-decoration: none;
+}
+p {
+  text-align: center;
+}
 .nav {
   padding: 8px;
   background-color: #ffffffce;
@@ -28,7 +34,8 @@ li {
   font-size: 16px;
   font-weight: bold;
 }
-li:hover,a:hover {
+li:hover,
+a:hover {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -42,7 +49,7 @@ li:hover,a:hover {
   justify-content: center;
   align-items: center;
 }
-#home{
+.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,39 +65,30 @@ h2 {
   padding: 10px;
   text-align: center;
 }
-h3{
+h3 {
   font-size: 18px;
-  padding-bottom: 20px;
+  padding: 0 5px 20px 5px;
   text-align: center;
 }
-section{
-  background-color: #ffffffb7;
+section {
+  background-color: #ffffffce;
   margin: 5px;
   border-radius: 15px;
 }
-section h2{
-  color: #C6A28F;
+section h2 {
+  color: #c6a28f;
 }
-.contact{
-  background-color: #ffffff9c;
-  border-radius: 15px;
-}
-.icons{
+
+.icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.icons *{
+.icons * {
   margin: 5px;
   padding-bottom: 5px;
   height: 40px;
 }
 .footer {
   bottom: 0;
-}
-a{
-  text-decoration: none;
-}
-p {
-  text-align: center;
 }
