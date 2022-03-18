@@ -76,10 +76,7 @@ const Projects = () => {
             </svg>
           </h2>
         </a>
-        <h3>
-          <b>Team project </b>
-          developed with MERN stack and I worked on frontend
-        </h3>
+        <h3>Team project developed with MERN stack</h3>
       </section>
     </div>
   );

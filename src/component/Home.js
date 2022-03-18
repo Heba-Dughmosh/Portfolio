@@ -6,7 +6,7 @@ const Home = () => {
       <h2>
         <Typewriter
           options={{
-            strings: ["Full Stack Web Developer"],
+            strings: ["Full Stack Web Developer with focus on Frontend and Design"],
             pauseFor: 2500,
             autoStart: true,
             loop: true,
